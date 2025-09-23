@@ -1,0 +1,42 @@
+The college ground is rectangular in shape. The Management decides to build a fence around the ground. In order to help the construction workers to build a straight fence, they planned to place a thick rope around the ground. They wanted to buy only the exact length of the rope that is needed. They also wanted to cover the entire ground with a thick carpet during rainy season. They wanted to buy only the exact quantity of carpet that is needed. They requested your help.
+
+Can you please help them by writing a program to find the exact length of the rope and the exact quantity of carper that is required?
+
+Input Format
+
+Input consists of 2 integers.
+
+The first integer corresponds to the length of the ground.
+
+The second integer corresponds to the breadth of the ground.
+
+Constraints
+
+No Constraints
+
+Output Format
+
+Refer Sample Input and Output for exact formatting specifications.
+
+Sample Input 0
+
+50
+20
+Sample Output 0
+
+Required length is 140.00m
+Required quantity of carpet is 1000.00sqm
+Sample Input 1
+
+40
+10
+Sample Output 1
+
+Required length is 100.00m
+Required quantity of carpet is 400.00sqm
+length = int(input())
+breadth = int(input())
+perimeter = 2 * (length + breadth)       
+area = length * breadth               
+print(f"Required length is {perimeter:.2f}m")
+print(f"Required quantity of carpet is {area:.2f}sqm")
